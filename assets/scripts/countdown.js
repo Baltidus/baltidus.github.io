@@ -66,7 +66,7 @@ function showPopup() {
     const code = popup.querySelector('#gift-code').value.trim();
     if (code === "230405") {
         alert("🎉 Joyeux Noël ! 🎄");
-        window.location.href = "./pages/gift.html";
+        window.location.href = "./pages/giftopening.html";
     } else {
         alert("Essaye encore ! 😇");
     }
