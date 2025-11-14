@@ -1,3 +1,33 @@
+
 body {
-    background-color: black;
+    width: 100%;
+    background:#0D0D12;
+    padding: 2rem;
+    overflow: hidden;
+
+}
+.images_container {
+    display: flex ;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.images_destination-image {
+    height: 100%;
+    width: 5rem;
+}
+#images_destination-image1 {
+    background-color: lightgreen;
+}
+#images_destination-image2 {
+    background-color: lightgoldenrodyellow;
+}
+#images_destination-image3 {
+    background-color: lightblue;
+}
+#images_destination-image4 {
+    background-color: lightcoral;
 }
