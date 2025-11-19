@@ -44,15 +44,18 @@ html, body {
   transform-origin: center center;
 }
 #bg-image1{
-    
     background-image: url("../images/destinations/blue.jpeg");
 }
 #bg-image2{
+
+    background-image: url("../images/destinations/darkgreen.png");
+}
+#bg-image3{
     background-image: url("../images/destinations/blue.jpeg");
-}#bg-image3{
+}
+#bg-image4{
     background-image: url("../images/destinations/blue.jpeg");
-}#bg-image4{
-    background-image: url("../images/destinations/blue.jpeg");
-}#bg-image5{
+}
+#bg-image5{
     background-image: url("../images/destinations/blue.jpeg");
 }
