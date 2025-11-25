@@ -5,6 +5,7 @@ html, body {
   overflow: hidden;
   width: 100%;
   height: 100%;
+  background-color: #0D0D12;
 }
 
 #workspace {
@@ -18,29 +19,12 @@ html, body {
 #frame {
     width: 80vw;
     height: 70vh;
-    background-image: url('../images/destinations/blue.jpeg');
+    background-image: url('../images/destinations/frame.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
     overflow: hidden;
 }
-#mask-layer {
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,1);  /* Calque opaque */
 
-    /* MASK qui découpe exactement la forme des colonnes */
-    mask-image:
-        repeating-linear-gradient(
-            105deg,                   /* même angle que tes colonnes */
-            transparent 0,           /*trou = transparent */
-            transparent 3rem,        /* largeur réelle des colonnes */
-            black 3rem,              /* partie opaque entre les colonnes */
-            black 5.1rem               /* 70px = 60 + 10px gap */
-        );
-
-    mask-size: 200% 200%;           /* évite les artefacts */
-    mask-position: center center;
-}
 
 
