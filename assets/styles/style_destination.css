@@ -1,3 +1,4 @@
+
 html, body {
   /* background-color: #0D0D12; */
   margin: 0;
@@ -6,9 +7,14 @@ html, body {
   width: 100%;
   height: 100%;
   background-color: #0D0D12;
-  color: white
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  /* font-weight: ; */
+  font-style: normal;
 }
 
+/* ============== ON TOUCHE PLUS ============== */
 #background-image {
   width: 100vw;
   height: 100vh;
@@ -30,14 +36,32 @@ html, body {
     background-position: center;
 }
 
+/* ============== LE CONTENU ============== */
 #content {
-    width: 100vw;
+
+    margin: 5vh 9vw;
+    width: 82vw;
     height: 90vh;
-    color: white;
     text-align: center;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     z-index: 1; 
+
 }
+  #title {
+    margin: 0;
+    padding: 0;
+    border: solid 2px white;
+  }
+.contenttoread {
+    backdrop-filter: blur(5px) grayscale(70%);
+    background-color: rgba(51, 51, 51, 0.5);
+    padding:10px -10px;
+    border: solid 2px white;
+    border-radius: 50px;
+}
+
+
+
