@@ -1,61 +1,39 @@
 html, body {
-  background-color: #0D0D12;
+  /* background-color: #0D0D12; */
   margin: 0;
   padding: 0;
   overflow: hidden;
   width: 100%;
   height: 100%;
+  background-color: #0D0D12;
 }
 
-#workspace {
+#background-image {
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 
 #frame {
-  width: 80vw;
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+    width: 80vw;
+    height: 70vh;
+    background-image: url('../images/destinations/frame.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
-/* Conteneur zoomé */
-#zoom-container {
-  display: flex;
-  gap: 20px;
-  transform: scaleX(1.5);
-  transform-origin: center center;
-  align-items: center;
-
-  width: max-content;   /* prend la largeur de ses colonnes */
-  height: 100%;         /* IMPORTANT pour que les colonnes aient une hauteur de référence */
-}
-
-/* Colonnes inclinées */
-.col {
-  width: 85px;          /* largeur fixe pour scaleX */
-  height: 150%;         /* prend la hauteur du conteneur */
-  transform: rotate(15deg);
-  transform-origin: center center;
-}
-#bg-image1{
-    background-image: url("../images/destinations/blue.jpeg");
-}
-#bg-image2{
-
-    background-image: url("../images/destinations/darkgreen.png");
-}
-#bg-image3{
-    background-image: url("../images/destinations/blue.jpeg");
-}
-#bg-image4{
-    background-image: url("../images/destinations/blue.jpeg");
-}
-#bg-image5{
-    background-image: url("../images/destinations/blue.jpeg");
+#main-title {
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  margin: 0;
+  padding: 0.5em;
+  z-index: 1;
 }
