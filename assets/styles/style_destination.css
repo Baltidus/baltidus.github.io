@@ -50,18 +50,55 @@ html, body {
     z-index: 1; 
 
 }
-  #title {
+  .title > *{
     margin: 0;
     padding: 0;
-    border: solid 2px white;
   }
-.contenttoread {
-    backdrop-filter: blur(5px) grayscale(70%);
+.content-box {
     background-color: rgba(51, 51, 51, 0.5);
-    padding:10px -10px;
-    border: solid 2px white;
-    border-radius: 50px;
+    border: solid 2px #252535;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #232330, #0D0D12 95%);
+    position: relative;
+    color: #a8a8f0;
 }
 
+#button_toprogram {
 
+    height: 48px;
+    
+    a {
+      text-decoration: none;
+      color: #eacea7;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: large;
+      font-family: "Playfair Display", serif;
+    }
+  }
 
+.shadow-box {
+  box-shadow:#5c5c92 0px 0px 8px 2px;
+}
+.shadow-box_button {
+  box-shadow:#eacea7 0px 0px 8px 2px;
+}
+#main-subtitle {
+  margin: 3rem 5rem -3rem ;
+  padding: 1.3rem 1rem;
+  border-radius: 100px;
+}
+
+ #explosionCanvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none; /* ne bloque pas les clics */
+        z-index: 9999; /* au-dessus de tout */
+    }
