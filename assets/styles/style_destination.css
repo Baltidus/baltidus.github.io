@@ -67,18 +67,20 @@ html, body {
     color: #a8a8f0;
 }
 
+a {
+    text-decoration: none;
+}
+
 #button_toprogram {
 
     height: 48px;
     
-    a {
-      text-decoration: none;
-      color: #eacea7;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      font-size: large;
-      font-family: "Playfair Display", serif;
-    }
+    color: #eacea7;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: large;
+    font-family: "Playfair Display", serif;
+    
   }
 
 .shadow-box {

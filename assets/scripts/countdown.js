@@ -2,7 +2,7 @@ const timerEl = document.querySelector('.gift_header-timer');
 const secretEl = document.getElementById('gift_header-secret');
 const giftImage = document.getElementById('gift-image');
 
-const targetDate = new Date('2025-10-30T13:00:00').getTime();
+const targetDate = new Date('2025-11-25T13:00:00').getTime();
 let isUnlocked = false; // deviens true à la fin du compte à rebours
 
 function updateCountdown() {
