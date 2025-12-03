@@ -1,8 +1,8 @@
-html {
+.main_menu {
     width: 100vw;
     display: flex;
     flex-direction: column;
-    background-color: bisque;
+    background-color: blanchedalmond;
 }
 
 

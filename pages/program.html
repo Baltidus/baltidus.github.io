@@ -15,17 +15,17 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Carnet de Bord</a>
+        <a class="navbar-brand" href="program.html">Carnet de Bord</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item fs-2">
-              <a class="nav-link active" aria-current="page" href="#">🔰 Accueil</a>
+              <a class="nav-link active" aria-current="page" href="program.html">🔰 Accueil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">🥾 Activités<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="trackings.html">🥾 Activités<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://www.booking.com/hotel/fr/la-bulle-du-quinze.fr.html?label=gen173nr-10CAsoTUISbGEtYnVsbGUtZHUtcXVpbnplSDNYBGhNiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKqpr3JBsACAdICJDFkOTA5Y2MxLTIwOGYtNGEwOS1hODA2LWI2Njc2ZTVjMmJkNtgCAeACAQ&sid=85e1c33f898cdd0c4db8a6f98a77c198&dist=0&keep_landing=1&sb_price_type=total&type=total&">🪹 Notre Logis</a>
@@ -44,10 +44,10 @@
         </div>
       </nav>
     </header>
-    <Main>
+    <Main style="background-color: #ffebcd;">
 
       <!-- CAROUSEL -->
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -60,7 +60,7 @@
                     <div class="carousel-caption d-flex flex-column justify-content-between">
                         <h1>Balades en Auvergne</h1>
                         <p class="fw-bolder read_easier">De crêtes volcaniques en vallées secrètes, je t’emmène découvrir les merveilles sauvages du Puy-de-Dôme, voici une parenthèse rien que pour nous.</p>
-                        <p><a class="btn btn-lg btn-dark" href="#" role="button">🚶‍♀️‍➡️ Notre programme</a></p>
+                        <p><a class="btn btn-lg btn-dark" href="trackings.html" role="button">🚶‍♀️‍➡️ Notre programme</a></p>
                     </div>
                   </div>
               </div>
@@ -95,6 +95,8 @@
             <span class="sr-only">Next</span>
             </a>
         </div>
+      </div>  
+
 
         <div class="main_menu container">
         <!-- Main menu content goes here -->
@@ -145,26 +147,35 @@
           <div class="mt-5">
             <p>
               <a class="btn btn-dark btn-lg w-100" data-toggle="collapse" href="#wikifeeder" role="button" aria-expanded="false"  aria-controls="wikifeeder">
-                L'auvergne en quelques infos
+                La région en quelques infos
               </a>
             </p>
             <div class="collapse" id="wikifeeder">
               <div class="card card-body">
                 La région où se situe Vulcania se trouve au cœur de la Chaîne des Puys, un ensemble volcanique long d’environ 45 km et composé de plus de 80 volcans alignés du nord au sud. Cette chaîne fait partie du Massif central et constitue l’un des ensembles volcaniques les mieux préservés d’Europe. Elle domine le paysage du Puy-de-Dôme, volcan emblématique culminant à 1 465 m d’altitude, offrant une vue spectaculaire sur les plateaux volcaniques environnants. L’ensemble Chaîne des Puys – faille de Limagne est inscrit au patrimoine mondial de l’UNESCO depuis 2018. Pour en savoir plus, tu peux consulter les pages Wikipédia dédiées :
             
-              <ul class="">
-                <li><a href="https://fr.wikipedia.org/wiki/Cha%C3%AEne_des_Puys" >En apprendre plus sur la Chaîne des Puys </a></li>
-                <li><a href="https://fr.wikipedia.org/wiki/Puy_de_D%C3%B4me">Tout savoir sur le Puy de Dôme</a></li>
-                <li><a href="https://fr.wikipedia.org/wiki/Faille_de_Limagne">Découvrir la Faille de Limagne</a></li>
+              <ul class="list-unstyled">
+                <li><a href="https://fr.wikipedia.org/wiki/Cha%C3%AEne_des_Puys" >» En apprendre plus sur la Chaîne des Puys </a></li>
+                <li><a href="https://fr.wikipedia.org/wiki/Puy_de_D%C3%B4me">» Tout savoir sur le Puy de Dôme</a></li>
+                <li><a href="https://fr.wikipedia.org/wiki/Faille_de_Limagne">» Découvrir la Faille de Limagne</a></li>
               </ul>
             </div>
           </div>
 
+          <div class="mt-5">
+            <p>
+              <a class="btn btn-dark btn-lg w-100" data-toggle="collapse" href="#weather" role="button" aria-expanded="false"  aria-controls="weather">
+                Météo des prochains jours
+              </a>
+            </p>
+            <div class="collapse" id="weather">
+              <div class="card card-body">
+                  <!-- Météo Widget -->     
+                <iframe id="widget_autocomplete_preview"  width="100%" height="200" frameborder="0" src="https://meteofrance.com/widget/prevision/632190##00BCD4B3" title="Prévisions Mazaye par Météo-France"> </iframe>
+            </div>
+          </div>
 
-        </div>  
-          
 
-        
     </Main>
 
     <!-- Optional JavaScript -->
