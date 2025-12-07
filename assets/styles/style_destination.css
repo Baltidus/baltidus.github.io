@@ -41,7 +41,8 @@ html, body {
 
     margin: 5vh 9vw;
     width: 82vw;
-    height: 90vh;
+    min-height: 90vh;
+    height: auto;
     text-align: center;
     position: relative;
     display: flex;
