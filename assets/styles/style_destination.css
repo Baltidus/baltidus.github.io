@@ -41,8 +41,7 @@ html, body {
 
     margin: 5vh 9vw;
     width: 82vw;
-    min-height: 90vh;
-    height: auto;
+    height: 90vh;
     text-align: center;
     position: relative;
     display: flex;
@@ -91,8 +90,8 @@ a {
   box-shadow:#eacea7 0px 0px 8px 2px;
 }
 #main-subtitle {
-  margin: 3rem 5rem -3rem ;
-  padding: 1.3rem 1rem;
+  margin: 0 4rem  ;
+  /* padding: 1.3rem 1rem; */
   border-radius: 100px;
 }
 
