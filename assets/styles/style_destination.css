@@ -3,14 +3,13 @@ html, body {
   /* background-color: #0D0D12; */
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
+  /* overflow: hidden; */
+  width: 100vw;
+  height: 100vh;
   background-color: #0D0D12;
   color: white;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-  /* font-weight: ; */
   font-style: normal;
 }
 
@@ -21,7 +20,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: absolute;
   top: 0;
   left: 0;
@@ -29,31 +28,39 @@ html, body {
 }
 
 #frame {
-    width: 80vw;
-    height: 70vh;
+    width: 70vw;
+    height: 60vh;
     background-image: url('../images/destinations/frame.jpg');
     background-size: cover;
     background-position: center;
 }
 
 /* ============== LE CONTENU ============== */
-#content {
 
-    margin: 5vh 9vw;
-    width: 82vw;
-    height: 90vh;
+.content-container {
+  padding-top: 1.2rem;
+
+}
+#content {
+    margin: 6.5vh 9vw;
+    width: 80vw;
+    height: 80vh;
     text-align: center;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    z-index: 1; 
 
 }
-  .title > *{
+.title > *{
     margin: 0;
     padding: 0;
   }
+#main-destination {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 .content-box {
     background-color: rgba(51, 51, 51, 0.5);
     border: solid 2px #252535;
@@ -64,7 +71,9 @@ html, body {
     justify-content: center;
     background: linear-gradient(180deg, #232330, #0D0D12 95%);
     position: relative;
-    color: #a8a8f0;
+    color: #d8d8f5;
+    font-size: larger;
+    font-weight: 600;
 }
 
 a {
@@ -90,8 +99,9 @@ a {
   box-shadow:#eacea7 0px 0px 8px 2px;
 }
 #main-subtitle {
-  margin: 0 4rem  ;
-  /* padding: 1.3rem 1rem; */
+  font-size: 1.7rem;
+  margin: 3rem 4.5rem ;
+  padding: 1.3rem 1rem;
   border-radius: 100px;
 }
 
