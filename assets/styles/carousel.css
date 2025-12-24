@@ -26,6 +26,7 @@ body {
 }
 .read_easier {
   padding: 2px 8px;
+  font-size: medium;
   background: rgba(1, 1, 1, 0.3);
   backdrop-filter: blur(1px);
 }
