@@ -14,7 +14,12 @@ body {
   margin-right: .75rem;
   margin-left: .75rem;
 }
-
+.ltxt {
+  font-size: 1rem;
+}
+/* .ltxt-1 {
+  font-size: 1.0rem;
+} */
 
 /* Featurettes
 ------------------------- */
