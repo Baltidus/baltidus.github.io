@@ -39,7 +39,7 @@ giftImage.addEventListener('click', () => {
   if (!isUnlocked) {
     alert("⏳ Il faut encore patienter un peu !");
   } else {
-    showPopup();
+    window.location.href = "./pages/program.html";
   }
 });
 
